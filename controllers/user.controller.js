@@ -19,7 +19,6 @@ module.exports.search = function(req, res){
 };
 
 module.exports.create = function(req, res){
-    console.log(req.cookies);
     res.render('users/create')
 };
 
@@ -33,6 +32,10 @@ module.exports.get = function(req, res){
 
 module.exports.postCreate = function(req, res){
     req.body.id = shortid.generate();
+    var avatarPath = req.file.path.split('/').slice(1).join('/');
+    if(avatarPath === "")
+        avatarPath = req.file.path.split('\\').slice(1).join('\\');
+    req.body.avatar = avatarPath;
     
     db.get('users').push(req.body).write();
     res.redirect('/users');
