@@ -1,20 +1,11 @@
 {
   "users": [
     {
-      "name": "bebe",
-      "id": "vRGLI7VZ"
-    },
-    {
-      "name": "hehe",
-      "id": "f7SU_DUk"
-    },
-    {
-      "name": "xcv vx ",
-      "id": "4CPeWNfS"
-    },
-    {
-      "name": "cvv",
-      "id": "yBvOcGGz"
+      "name": "Sinh Nguyen",
+      "id": "vRGLI7VZ",
+      "phone": "0393066286",
+      "email": "snguyen@opswat.com",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
       "name": "shin",
@@ -30,6 +21,11 @@
       "name": "vsv",
       "phone": "hrthrt",
       "id": "9L45PxK_"
+    },
+    {
+      "name": "edwed",
+      "phone": "dedew",
+      "id": "OTBY7w__"
     }
   ]
 }
