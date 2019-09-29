@@ -615,5 +615,42 @@
       "image": "https://loremflickr.com/320/240",
       "description": "placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis"
     }
+  ],
+  "sessions": [
+    {
+      "id": "5bTyzZaT",
+      "cart": {
+        "bf9399e0-04c6-4b20-8392-71fed23a9711": 3,
+        "305da8b1-6fce-402f-92e4-1572902d1dac": 1
+      }
+    },
+    {
+      "id": "s6Idvtza"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "77udA1Kd",
+      "amount": 500000,
+      "accountId": "123456"
+    },
+    {
+      "id": "wykP_mtL",
+      "amount": 200000,
+      "accountId": "123456",
+      "userId": "vRGLI7VZ"
+    },
+    {
+      "id": "zDo0rU2u",
+      "amount": 500000,
+      "accountId": "123456",
+      "userId": "vRGLI7VZ"
+    },
+    {
+      "id": "UvvuCjI3",
+      "amount": 56345634,
+      "accountId": "5324523",
+      "userId": "vRGLI7VZ"
+    }
   ]
 }
